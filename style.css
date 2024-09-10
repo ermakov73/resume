@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #fff;
+    color: #0f141e
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.avatar {
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    /* box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25); */
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: normal;
+    color: #373737;
+}
+
+.info-text h1 {
+    color: #000000;
+}
+
+@media (max-width: 632px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.card {
+    padding: 20px 30px;
+    background: #F6F6F6;
+    /* border: 1px solid #ccc; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    color: #000000;
+    font-size: 24px;
+}
+
+.hobby {
+    background: #F6F6F6;
+    color: #000000;
+}
+
+.experience {
+    background: #F6F6F6;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: #154797;
+    text-decoration: none;
+    /* transition: all .2s; */
+}
+
+a:hover {
+    color: orange;
+    /* font-size: 20px; */
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: #154797;
+}
+
+.btn {
+    background: #5885ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 8px;
+    /* border-bottom:1px solid #dadada; */
+    padding-bottom: 8px;
+}
+
+
+.table {
+    width: 100%;
+}
+
+.overflow {
+    overflow: auto;
+}
+
+.table td {
+    text-align: left;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.table td:hover {
+    background: #ccc;
+}
+
+
+.table tr:nth-child(odd) {
+    background: #eee;
+}
+
+.head th {
+    text-align: left;
+    padding: 10px;
+    background: #5885ff;
+    color: #fff;
+}
+
+
+.form-row {
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 10px;
+    width: 50%;
+}
+
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .info-text {
+        margin-left: 0;
+    }
+
+}
+
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background: transparent;
+    /* border-bottom: 1px solid #ccc; */
+    padding: 10px;
+    outline: none;
+    font-family: inherit;
+    margin-bottom: 15px;
+}
